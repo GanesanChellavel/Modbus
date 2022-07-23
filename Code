@@ -66,3 +66,15 @@ WORD wCRCWord = 0xFFFF;
    }
    return wCRCWord;
 } // End: CRC16
+
+
+Coding System
+Eight-bit binary, hexadecimal 0 ... 9, A ... F
+Two hexadecimal characters contained in each eight-bit field of the message
+Bits per Byte
+1 start bit
+8 data bits, least significant bit sent first
+1 bit for even / odd parity-no bit for no parity
+1 stop bit if parity is used-2 bits if no parity
+Error Check Field
+Cyclical Redundancy Check (CRC)
