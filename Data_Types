@@ -1,3 +1,12 @@
+Native Modbus registers
+The 16 Bit Modbus registers can be displayed in 4 different modes.
+
+Signed
+Unsigned
+Hex
+Binary
+
+
 32 bit Float Types
 This combines 2 16 Bit Modbus registers. It can be displayed in 4 different word/byte orders.
 
