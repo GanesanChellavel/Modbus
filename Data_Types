@@ -7,3 +7,7 @@ BA DC -- Float Big-endian byte swap
 CD AB -- Float Little-endian byte swap
 DC BA -- Float Little-endian
 Mostly common use Float Big-endian
+Example:
+Byte Order: Big-endian
+The floating point number 123456.00 or in hexadecimal 47 F1 20 00.
+Order as they come over the wire in a Modbus message: 47 F1 20 00
