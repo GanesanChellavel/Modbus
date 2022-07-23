@@ -1,0 +1,9 @@
+32 bit Float Types
+This combines 2 16 Bit Modbus registers. It can be displayed in 4 different word/byte orders.
+
+
+AB CD -- Float Big-endian
+BA DC -- Float Big-endian byte swap
+CD AB -- Float Little-endian byte swap
+DC BA -- Float Little-endian
+Mostly common use Float Big-endian
